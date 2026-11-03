@@ -1,10 +1,10 @@
 #include "Center.h"
 #include "movement.h"
 
-#include "bn_sprite_items_goku.h"
+#include "bn_sprite_items_square.h"
  
 Center::Center(bn::fixed_point starting_position, bn::fixed mass, bn::fixed speed) : 
-    _sprite(bn::sprite_items::goku.create_sprite(starting_position)),
+    _sprite(bn::sprite_items::square.create_sprite(starting_position)),
     _mass(mass),
     _speed(speed) {
 }
