@@ -1,6 +1,8 @@
 # Square Power
 GBA game with c++. Move around as a little square and throw your circles. 
 
+![Orbits Gameplay](giphy(1).gif)
+
 # Controls
 |Button|Keyboard-Input|Action|
 |---|---|---|
