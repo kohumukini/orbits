@@ -22,6 +22,8 @@ int main() {
 
     Center center = Center({30, 40}, .05, 2);
     bn::vector<Orbiter, MAX_ORBITERS> orbiters = {};
+
+    bn::backdrop::set_color(bn::color(8, 20, 3));
     
     while(true) {
         // Add an orbiter when A is pressed if there's room
